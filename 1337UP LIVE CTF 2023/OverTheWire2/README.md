@@ -9,29 +9,34 @@
 |  **Difficulty** |  Easy |
 | **Files** |  [otw_pt2.pcap](<otw_pt2.pcapng>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/c528a8b1-e7e8-4284-88c1-fd127096ba12)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/d8b946f1-8228-497c-bb2a-b6e6a49473d7)
 
 # Solution
 
 We get an pcap file as attachment. Lets open it in wireshark and check the protocol hierarchy:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/c4f657c1-6b03-4ab5-87c0-ef51e9f38d73)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/37f3c064-6416-43cb-8281-a8fad885a0d9)
+
 
 There is a lot of different protocols captured in this capture. One interesting one is SMTP(Simple Mail Transfer Protocol). <br/>
 Lets filter on smtp and follow the traffic:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/121b5a56-0ad9-4623-9f22-af0bad0544a1)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/a176ffbd-ac32-45a5-ba06-c308a21c59e8)
+
 
 It's some communication between 0xM4hm0ud and Cryptocat. It's talking about hiding future secret messages. In stream 114 we can find this message:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/80900788-36bd-404a-8730-4ed14f377065)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/f14f321c-59c9-4647-9989-860d8fbab26b)
+
 
 We can see some image sent as base64. When saving the base64 as an image we can see that it's just an picture of a cat. As in the message before they probaly used some steg technique to hide messages.
 When we run `exiftool` we can see this:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/d2bbaa58-0aca-419e-915a-5c1a1c215ac5)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/f5dc3cdb-bae5-4a9c-a6c4-ecc08c131c8f)
+
 
 but this not the flag. Lets check the other packets. In stream 150 we can see another image. This one is a png file. We can use `zsteg` on png images.
 When we run zsteg we can see the flag(flag is hidden in lsb):
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/e3bd7cae-cb1b-4706-832b-6c6467cf01c8)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/b87a9ad6-0d58-4ce4-9629-aeea4619a8eb)
+
