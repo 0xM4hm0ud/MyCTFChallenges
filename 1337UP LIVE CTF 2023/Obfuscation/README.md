@@ -9,7 +9,7 @@
 |  **Difficulty** |  Easy |
 | **Files** |  [obfuscation.zip](<obfuscation.zip>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/58c3ca73-5f90-4573-840f-330f1de27fc5)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/e0575ee2-7da3-4aab-b72c-8418870cfa1e)
 
 # Solution
 
@@ -138,4 +138,5 @@ int main(void)
 
 After compiling and running we get:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/65f99475-c94f-4447-a08f-f80c0c9d1821)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/37a6b78c-3fa9-49bd-b08d-3686aed0fa7d)
+
