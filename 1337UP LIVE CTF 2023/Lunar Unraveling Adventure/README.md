@@ -9,7 +9,7 @@
 |  **Difficulty** |  Medium |
 | **Files** |  [lunar](<lunar>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/d5213922-57f7-4cf9-a4bd-f260cbcd67ec)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/38ea4193-255a-45e8-afd7-f85d0a50ffcd)
 
 # Solution
 
