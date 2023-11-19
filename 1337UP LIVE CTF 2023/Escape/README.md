@@ -7,7 +7,7 @@
 |  **Category** |  Game |
 |  **Solves** |  89  |
 |  **Difficulty** |  Easy |
-| **Files** |  [escape.zip](<escape.zip>)  |
+| **Files** |  [escape.zip](https://ctf.intigriti.io/files/fbdb02ab305fa88d96c2ce46504830ea/escape.zip?token)  |
 
 ![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/65aac932-414e-4f03-8e0e-a410640334f9)
 
