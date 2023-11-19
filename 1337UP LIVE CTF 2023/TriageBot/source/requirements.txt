@@ -1,0 +1,4 @@
+discord.py
+load_dotenv
+openai
+aiohttp==3.9.0b0
