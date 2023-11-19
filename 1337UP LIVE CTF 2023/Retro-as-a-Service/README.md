@@ -9,7 +9,7 @@
 |  **Difficulty** |  Medium |
 | **Files** |  [retro.zip](<retro.zip>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/af734404-35e5-4c5c-9546-c2e79b6a22bd)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/14db998f-ae98-4244-a1e2-8382485e49a7)
 
 # Solution
 
@@ -71,7 +71,7 @@ void FUN_00401266(void)
 If we diff the binary we can see that it is different.
 We can check all modified functions here:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/7dfd5cd8-dee2-49b4-ac98-7b98f1ed00f5)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/b2b99395-947f-462e-849d-96cc1b802b14)
 
 The one with 67.22% is interesting. The others aren't really important. The one with 84% is a false positive I guess.(It compares different functions). Lets check the function in Ghidra:
 
