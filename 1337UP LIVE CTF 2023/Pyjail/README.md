@@ -13,7 +13,7 @@
 
 # Solution
 
-We get an python file as source: 
+We get an python file as attachment: 
 
 ```py
 import ast
