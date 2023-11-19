@@ -9,7 +9,8 @@
 |  **Difficulty** |  Easy |
 | **Files** |  [escape.zip](https://ctf.intigriti.io/files/fbdb02ab305fa88d96c2ce46504830ea/escape.zip)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/65aac932-414e-4f03-8e0e-a410640334f9)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/b479207f-63be-48bb-aee0-4964b6e4c3e0)
+
 
 # Solution
 
@@ -18,6 +19,6 @@ I used [cheatengine](https://www.cheatengine.org/) to teleport through the walls
 
 When teleported outside of box we can see another box, when we teleport in that box we can see the flag:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/4390121a-0a82-4c55-bdec-4469de2b9f11)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/ad334cf2-a757-41af-94dc-3bf11a8c021f)
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/a0ed2781-2901-4ac7-9757-a926a7967208)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/b8bf711d-8945-4167-9d0f-997a319996cd)
