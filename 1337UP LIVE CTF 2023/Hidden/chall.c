@@ -30,18 +30,18 @@ void init(){
 
 int input(void){
     char buffer[50] = {0};
-	printf("Tell me something:\n");
+    printf("Tell me something:\n");
     read(0, buffer, 0x50);   
     printf("I remember what you said: ");
     puts(buffer);
-	return 0;
+    return 0;
 }
 
 __attribute__((stack_protect))
 int main(void){
     init();
-	printf("Can you find the hidden truth?\n");
-	printf("Lets see!\n");
+    printf("Can you find the hidden truth?\n");
+    printf("Lets see!\n");
     input();
-	return 0;
+    return 0;
 }
