@@ -9,33 +9,33 @@
 |  **Difficulty** |  Easy |
 | **Files** |  [hidden.zip](<hidden.zip>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/1a85f302-49e4-48ba-b6e6-7b488aa56859)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/ba580f5b-9afe-43c0-a8cd-6732ff297568)
 
 # Solution
 
 When unzipping we get a binary. Lets check the protections:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/50934b5f-e248-4d9a-9453-6f4af77bbe2a)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/713797de-a5f3-4f10-8b51-4035b0feac96)
 
 So all protections enabled. 
 We can check the main function and see that it calls the `input` function:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/07913157-30a6-4716-9397-bf63e7ff8673)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/5c8b8ec0-e69f-4bac-a40d-eed8d61bdb35)
 
 When we check the `input` function we see that there is no canary in this function. There is also a buffer overflow vulnerability. We can read 0x50 bytes into a buffer on the stack with a smaller size:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/8bec674e-bfe0-45ab-9e44-de65cca54736)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/812cb37c-5339-4975-ab4f-46afc404a441)
 
 There is also a win function called `_`:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/577f284c-a78b-47f8-9310-84476b68c2c2)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/8383955e-d42f-4aa1-8a69-217795d638c4)
 
 So we can just overflow and jump to the win function, but because of PIE that is enabled we can't do this.
 We need to leak. If we check close at the `input()` we can see that after the read call it prints our input with `puts`.
 Puts reads till it find a null byte and because we have an overflow we can fill the entire buffer till the return address and leak the return address. 
 But we also need to jump back so we need to overwrite the lsb of the return address(last 3 nibbels stays the same):
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/f6fe1e7b-0f2d-4faf-a0cb-a6b086314466)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/5769451c-4b3d-4a03-b34a-ddc9119bdd8a)
 
 So when we jumped back to main with the leak we know the address of the win function. We then can do a normal ret2win to get the flag.
 
