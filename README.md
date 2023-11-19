@@ -13,12 +13,12 @@ This is are my challenges I created for different CTFs. <br/>
 | [Dark Secrets](https://learn-cyber.net/writeup/Dark-Secrets) [2]                                     | Game | Medium                                       | 10        |
 | [Smiley Maze](https://learn-cyber.net/writeup/Smiley-Maze) [2]                                     | Game | Medium                                       | 6        |
 | [Obfuscation](<1337UP LIVE CTF 2023/Obfuscation>)                                     | Reversing | Easy                                       | 211        |
-| [Lunar Unraveling Adventure](<1337UP LIVE CTF 2023/Lunar_Unraveling_Adventure>) [1]                                     | Reversing | Medium                                       | 12        |
-| [Impossible Mission](<1337UP LIVE CTF 2023/Impossible_Mission>) [1]                                     | Reversing | Medium                                       | 5        |
+| [Lunar Unraveling Adventure](<1337UP LIVE CTF 2023/Lunar Unraveling Adventure>) [1]                                     | Reversing | Medium                                       | 12        |
+| [Impossible Mission](<1337UP LIVE CTF 2023/Impossible Mission>) [1]                                     | Reversing | Medium                                       | 5        |
 | [Hidden](<1337UP LIVE CTF 2023/Hidden>)                                     | Pwn | Easy                                       | 111        |
 | [Stack Up](<1337UP LIVE CTF 2023/StackUp>) [1]                                     | Pwn | Easy                                       | 3        |
-| [Retro-as-a-Service](<1337UP LIVE CTF 2023/Hidden>) [1]                                     | Pwn | Medium                                       | 1        |
-| [Seahorse Hide 'n' Seek](<1337UP LIVE CTF 2023/Hidden>) [1]                                     | Pwn | Hard                                       | 1        |
+| [Retro-as-a-Service](<1337UP LIVE CTF 2023/Retro-as-a-Service>) [1]                                     | Pwn | Medium                                       | 1        |
+| [Seahorse Hide 'n' Seek](<1337UP LIVE CTF 2023/Seahorse>) [1]                                     | Pwn | Hard                                       | 1        |
 
 
 [1]: This challenge is made by both [@DavidP](https://github.com/D13David) and me. <br/>
