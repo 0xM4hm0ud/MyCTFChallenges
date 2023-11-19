@@ -18,7 +18,7 @@ This is are my challenges I created for different CTFs. <br/>
 | [Hidden](<1337UP LIVE CTF 2023/Hidden>)                                     | Pwn | Easy                                       | 111        |
 | [Stack Up](<1337UP LIVE CTF 2023/Stack Up>) [1]                                     | Pwn | Easy                                       | 3        |
 | [Retro-as-a-Service](<1337UP LIVE CTF 2023/Retro-as-a-Service>) [1]                                     | Pwn | Medium                                       | 1        |
-| [Seahorse Hide 'n' Seek](<1337UP LIVE CTF 2023/Seahorse-Hide-n-seek>) [1]                                     | Pwn | Hard                                       | 1        |
+| [Seahorse Hide 'n' Seek](<1337UP LIVE CTF 2023/Seahorse-Hide-N-Seek>) [1]                                     | Pwn | Hard                                       | 1        |
 
 
 [1]: This challenge is made by both [@DavidP](https://github.com/D13David) and me. <br/>
