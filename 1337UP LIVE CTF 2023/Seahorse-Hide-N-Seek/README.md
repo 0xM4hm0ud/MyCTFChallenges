@@ -9,7 +9,7 @@
 |  **Difficulty** |  Hard |
 | **Files** |  [seahorse.zip](<seahorse.zip>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/857b660b-84e5-41c7-ae12-823cda4da718)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/ea032327-e6f0-4314-a654-e3fd2f694815)
 
 # Solution
 
