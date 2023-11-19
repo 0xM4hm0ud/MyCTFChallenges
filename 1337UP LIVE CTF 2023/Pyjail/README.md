@@ -9,7 +9,7 @@
 |  **Difficulty** |  Easy |
 | **Files** |  [jail.py](<jail.py>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/df7d3593-fa2a-469b-a818-84b7ef9a5ed9)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/968741e4-7207-445d-af0d-646531de63d5)
 
 # Solution
 
@@ -87,9 +87,9 @@ After this it will execute our code with `exec`: `return exec(normalized_code, {
 We can see that the globals(second param in exec) is an empty dictionary. The builtins are not removed, so we can use builtins function. We cant use import because we checked that with ast. 
 My solution was to use breakpoint. This is an built in function in python:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/6fced036-35b8-4f7d-9ba5-d95a4a67b872)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/473450c8-3e98-4892-bf3d-06d7542cbbfb)
 
 We then can use this inside our pdb shell to get the flag:
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/59803fda-021b-4566-bdae-2baecee114c6)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/1546597a-d636-41f0-9383-5601d0ba4811)
 
