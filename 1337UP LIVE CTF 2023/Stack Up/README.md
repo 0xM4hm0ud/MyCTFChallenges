@@ -9,7 +9,7 @@
 |  **Difficulty** |  Easy |
 | **Files** |  [stackup.zip](<stackup.zip>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/fd8db8af-dffd-4d78-93e2-2979a733e94b)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/a356f778-24d1-4fc7-a895-7891482236d3)
 
 # Solution
 
