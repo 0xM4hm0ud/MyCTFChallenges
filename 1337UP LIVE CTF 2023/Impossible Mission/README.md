@@ -381,3 +381,5 @@ print(flag)
 And yes, running this will finally give us the flag.
 
 Flag `INTIGRITI{6502_VMs_R0ckss!}`
+
+> Source code of the vm can be found [here](https://github.com/0xM4hm0ud/6502-vm).
