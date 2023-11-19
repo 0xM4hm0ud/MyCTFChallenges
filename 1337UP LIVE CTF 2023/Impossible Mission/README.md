@@ -9,7 +9,7 @@
 |  **Difficulty** |  Medium |
 | **Files** |  [impossible.zip](<impossible.zip>)  |
 
-![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/fd8db8af-dffd-4d78-93e2-2979a733e94b)
+![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/e3c467ad-7a81-4c79-a619-3424975b3696)
 
 # Solution
 
