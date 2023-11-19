@@ -13,7 +13,7 @@
 
 # Solution
 
-We get an pcap file as source. Lets open it in wireshark and check the protocol hierarchy:
+We get an pcap file as attachment. Lets open it in wireshark and check the protocol hierarchy:
 
 ![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/c4f657c1-6b03-4ab5-87c0-ef51e9f38d73)
 
