@@ -7,7 +7,7 @@
 |  **Category** |  Warmup |
 |  **Solves** |  166  |
 |  **Difficulty** |  Easy |
-| **Files** |  [otw_pt2.pcap](<>)  |
+| **Files** |  [otw_pt2.pcap](<otw_pt2.pcapng>)  |
 
 ![image](https://github.com/0xM4hm0ud/MyCTFChallenges/assets/80924519/c528a8b1-e7e8-4284-88c1-fd127096ba12)
 
