@@ -2,6 +2,23 @@
 
 This is are my challenges I created for different CTFs. <br/>
 
+## CyberSpace CTF 2024
+
+| Name                                                                | Category    | Difficulty                                      | Solves |
+| ------------------------------------------------------------------- | ----------- | ----------------------------------------- | ---------- |
+| [encryptor](<CyberSpace CTF 2024/encryptor>) | rev/mobile | beginner| 348 |
+| [shelltester](<CyberSpace CTF 2024/shelltester>) | pwn | beginner| 96 |
+| [shelltester-v2](<CyberSpace CTF 2024/shelltesterv2>) | pwn | easy | 49 |
+| [menu](<CyberSpace CTF 2024/menu>) | pwn | medium | 18 |
+| [syslooper](<CyberSpace CTF 2024/syslooper>) | pwn | hard | 7 |
+| [snake](<CyberSpace CTF 2024/snake>) | rev | easy | 122 |
+| [sole](<CyberSpace CTF 2024/sole>) | rev | easy | 65 |
+| [login](<CyberSpace CTF 2024/login>) | rev | easy | 52 |
+| [engine](<CyberSpace CTF 2024/engine>) | rev | medium | 28 |
+| [Secure Notes](<CyberSpace CTF 2024/securenotes>) | rev | medium | 10 |
+| [notekeeper](<CyberSpace CTF 2024/notekeeper>) | web | medium | 19 |
+| [Twig Playground](<CyberSpace CTF 2024/twig-playground>) | web | medium | 7 |
+
 ## 1337UP LIVE CTF 2023(Intigriti CTF)
 
 | Name                                                                | Category    | Difficulty                                      | Solves |
