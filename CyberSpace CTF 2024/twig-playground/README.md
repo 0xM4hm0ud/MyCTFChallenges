@@ -204,7 +204,7 @@ The interesting part is that `debug` is enabled. When checking the documentation
 
 <img src="assets/image2.png" width="700" >
 
-> [!NOTE] > `DebugExtension` and `debug` were not necessary for this challenge. People solved it without `dump`. I will explain it below.
+[!NOTE] > `DebugExtension` and `debug` were not necessary for this challenge. People solved it without `dump`. I will explain it below.
 
 However, we notice that dump is not blocked, and we can use it to dump the context. So, what can we do with it?
 
