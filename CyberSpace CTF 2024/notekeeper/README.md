@@ -2,7 +2,7 @@
 
 |              |                                                                                    |
 | ------------ | ---------------------------------------------------------------------------------- |
-| **CTF**      | [Cyberspace CTF](https://play.csc.tf/) [(CTFtime)](https://ctftime.org/event/2428) |
+| **CTF**      | [Cyberspace CTF](https://2024.csc.tf/) [(CTFtime)](https://ctftime.org/event/2428) |
 | **Author**   | [0xM4hm0ud](https://github.com/0xM4hm0ud)                                          |
 | **Category** | Web                                                                                |
 | **Solves**   | 19                                                                                 |
