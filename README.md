@@ -2,6 +2,17 @@
 
 This is are my challenges I created for different CTFs. <br/>
 
+## 1337UP LIVE CTF 2024(Intigriti CTF)
+
+| Name                                                                | Category    | Difficulty                                      | Solves |
+| ------------------------------------------------------------------- | ----------- | ----------------------------------------- | ---------- |
+| [Triage Bot v2](<1337UP LIVE CTF 2024/Triage Bot v2>) | misc | easy| 92 |
+| [Quiz](<1337UP LIVE CTF 2024/Quiz>) | mobile | easy | 61 |
+| [Baby Kernel](<1337UP LIVE CTF 2024/Baby Kernel>) | pwn | easy | 40 |
+| [Notepad](<1337UP LIVE CTF 2024/Notepad>) | pwn | easy | 78 |
+| [Notepad 2](<1337UP LIVE CTF 2024/Notepad 2>) | pwn | Medium | 48 |
+| [Space Maze](<1337UP LIVE CTF 2024/Space Maze>) | game | Medium/Hard | 3 |
+
 ## CyberSpace CTF 2024
 
 | Name                                                                | Category    | Difficulty                                      | Solves |
