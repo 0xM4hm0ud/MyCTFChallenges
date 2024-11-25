@@ -8,7 +8,7 @@
 |  **Solves** | 40 |
 |  **Difficulty** |  Easy |
 
-![image](https://github.com/user-attachments/assets/ce21dbdc-b36f-4583-a755-ed0cf6bdcc7d)
+<img src="https://github.com/user-attachments/assets/ce21dbdc-b36f-4583-a755-ed0cf6bdcc7d" width="400">
 
 # Solution
 
