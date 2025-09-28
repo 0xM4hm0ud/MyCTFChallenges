@@ -16,7 +16,7 @@ The goal of this challenge was to solve 100 mazes (later reduced to 50 due to se
 You needed to find a portal, and upon colliding with it, you would be teleported to a new maze.
 
 The game was compiled with il2cpp. You could use MelonLoader to solve this challenge.
-Frida was also a viable option. [Here](https://github.com/tien0246/writeup/tree/main/spacemaze) is a writeup from one of the solvers during the CTF with Frida.
+Frida was also a viable option. [Here](https://github.com/tien0246/writeup/tree/main/2024/1337up/spacemaze) is a writeup from one of the solvers during the CTF with Frida.
 
 # Files
 
